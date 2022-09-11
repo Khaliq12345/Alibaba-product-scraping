@@ -1,8 +1,55 @@
-# Alibaba-product-scraping
 
-### For this tutorial we will only extract the following fields from any search result page of Alibaba.com:
+# Scraping Products from Alibaba with python.
+The goal of this project is to extract Products information from the Alibaba to create a clean dataset which can be use for Data Analysis in the future. 
+This project is for Experienced scraper, who can contribute to improve the code in the project.
 
-Product Name
-Price Range
-Seller Name
-You could go further and scrape the product and pricing details based on filters and orders. But for now, we’ll keep it simple and stick to these fields.
+
+
+
+
+
+# Dependencies
+
+1. Python3 version_3.9 above.
+2. BeautifulSoup
+3. Requests
+4. Pandas
+### Python3
+Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.
+### Requests
+Requests is a HTTP library for the Python programming language. The goal of the project is to make HTTP requests simpler and more human-friendly.
+### BeautifulSoup
+Beautiful Soup is a Python package for parsing HTML and XML documents. It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping.
+### Pandas
+pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. It is free software released under the three-clause BSD license.
+
+
+# Installation
+Use the package manager pip to install the depenencies.
+
+Python3: https://www.python.org/downloads/
+
+BeautifulSoup: https://pypi.org/project/beautifulsoup4/
+
+Requests: https://pypi.org/project/requests/
+
+Pandas: https://pandas.pydata.org/docs/getting_started/install.html
+
+# Features
+1. Scrape cars from Aibaba.
+2. Result is saved to a CSV.
+3. You can scrape up to 10000+ products.
+
+
+#### Example Outputs
+
+![Screenshot Capture - 2022-09-11 - 21-38-44](https://user-images.githubusercontent.com/74500514/189548258-24e8140a-5134-460a-96fe-f74dffc88283.png)
+
+
+
+# Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
